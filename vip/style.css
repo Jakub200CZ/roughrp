@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@1,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@700&display=swap');
+
+/* SPECIAL FOR RULES */
+html {
+
+    min-height: 100%;
+    max-height: 100%;
+}
+
+* {
+    text-align: center;
+
+    scroll-behavior: smooth;
+}
+
+.rulesDiv {
+    padding-top: 3rem;
+}
+
+.head {
+    font-size: 2rem;
+    color: #f7931d;
+    text-decoration: underline;
+
+    text-shadow: #f7911d83 0px 0px 3px;
+}
+
+.headP {
+    font-size: 1.5rem;
+}
+
+.rule {
+    padding-top: 1rem
+}
+
+.rule h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #f7931d;
+    text-decoration: underline;
+}
+
+.rule span {
+    color: #f7931d;
+    text-decoration: underline;
+}
+
+.rule p {
+    font-size: 1rem;
+
+    text-align: start;
+
+    padding-left: 8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.underN {
+    font-size: 1rem;
+    text-align: center;
+
+    padding-left: 0;
+    padding-bottom: 2rem;
+}
+
+.ruleTwo h1 {
+    padding-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f7931d;
+    text-decoration: underline;
+}
+
+.ruleTwo .underN {
+    font-size: 1rem;
+
+    text-align: center;
+
+    padding-left: O;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.typeG{
+    font-size: 1rem;
+
+    text-align: start;
+
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.ruleTwo ul li {
+    font-size: 1rem;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+    text-align: start;
+
+    padding-left: 8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.grossType{
+    text-align: start;
+    padding-left: 8rem;
+    padding-top: 2rem;
+    color: #f7931d;
+    text-decoration: underline;
+} 
+
+.redirectRules {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.redirectRules ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+
+.redirectRules li {
+    padding: 1rem;
+    text-align: center;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.redirectRules a {
+    color: #fff;
+    text-decoration: none;
+
+    transition: 0.4s ease-out 100ms
+}
+
+.redirectRules a:hover {
+    color: #f7931d;
+    text-decoration: none;
+}
+
+.redirectRules h1 {
+    font-size: 1.5rem;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f7931d; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: 0.4s ease-out 100ms
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(115, 115, 115); /* Add a dark-grey background on hover */
+    text-shadow: #f7911d83 5px 5px 20px;
+  }
+
+
+/* END */
+
+
+
+
+/* WEB Style  */
+html {
+    background-color: #3b3b3b;
+    color: #fff;
+
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+
+    min-height: auto 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292929a9;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+
+header li {
+    padding: 1rem;
+    text-align: center;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+
+    transition: 0.4s ease-out 100ms
+}
+
+header a:hover {
+    color: #f7931d;
+    text-decoration: none;
+}
+
+
+/* HR style */
+.hrone {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(247, 147, 29, 0.185), rgba(247, 147, 29, 0.75), rgba(247, 145, 29, 0.185));
+}
+
+.hrtwo {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+/* Footer Button Style */
+.buttonstyle {
+    list-style: none;
+    padding-bottom: 1px;
+    color: #fff;
+    position: relative;
+
+    animation-duration: 2s;
+    
+}
+
+.buttonstyle::after {
+    list-style: none;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(3px);
+    background: #f7931d;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+    text-shadow: #ff8800 0px 0px 20px;
+}
+
+.buttonstyle:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+
+    text-shadow: #ff8800 0px 0px 20px;
+}
+
+
+.buttonstyleActive {
+    color: #f7931d;
+}
+
+footer {
+    text-align: center;
+    background-color: #292929a9;
+    position:absolute;
+    width:100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.cop {
+    padding-top: 30px;
+}
+
+.discl {
+    font-family: Nunito;
+}
+
+.discl a {
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease-out 100ms;}
+
+.discl a:hover {
+    color: rgb(58, 250, 0);
+    font-weight: bold;
+
+    text-shadow: rgb(58, 250, 0) 0px 0px 20px;
+}
+
+/* RESPONSIVE - tablet*/
+@media (max-width: 800px) {
+    .ruleTwo ul li {
+        padding-left: 3rem;
+    }
+    .rule p {
+        padding-left: 3rem;
+    }
+    .ruleTwo p {
+        padding-left: 3rem;
+    }
+    .nav2 {
+        display: inline;
+    }
+    .nav1 {
+        display: none;
+    }
+  }
+
+/* RESPONSIVE - mobile*/
+@media (max-width: 550px) {
+    .redirectRules li {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:800px){
+    .nav2 {
+        display: none;
+    }
+}
+
+
+.update {
+    color: #b0b0b080;
+}
+
+.imgVIP {
+    max-width: 500px;
+}
+
+.hightlight {
+    color: #f7931d;
+}
+
+.underN {
+    font-size: 1rem;
+    text-align: center;
+
+    padding-left: 0;
+    padding-bottom: 2rem;
+}
+
+.dakr {
+    font-size: 13px;
+    color: rgb(131, 131, 131);
+    padding-inline: 8rem;
+
+    font-family: 'Nunito', sans-serif;
+}
